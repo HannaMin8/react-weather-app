@@ -19,7 +19,7 @@ export default function FormattedDate(props) {
     minutes = `0${minutes}`;
   }
   return (
-    <div>
+    <div className="mt-3">
       {day} {hours}:{minutes}
     </div>
   );
